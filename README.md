@@ -2,7 +2,7 @@
 
 A multi-player game made for the dome theatre at Visualiseringscenter C as a Bachelor's project in Media Technology at Linköping University during the spring of 2020. The code stub given in [SGCT-Networked-Application](https://github.com/alexanderbock/SGCT-Networked-Application) was used as the foundation for the project.
 
-To clone this repository, don't forget to recurse submodules: `git clone --recurse-submodules https://github.com/frans-johansson/DomeDagen.git` or the dependent libraries will not work correctly.
+To clone this repository, don't forget to recurse submodules: `git clone --recurse-submodules https://github.com/Lrssn/DomeDagen.git` or the dependent libraries will not work correctly.
 
 ## Getting started
 1. Execute `npm install` in the `webserver` folder
