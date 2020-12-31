@@ -1,10 +1,10 @@
 # DomeDagen
 
-A multi-player game made for the dome at Visualiseringscenter C. Using [SGCT-Networked-Application](https://github.com/alexanderbock/SGCT-Networked-Application).
+A multi-player game made for the dome theatre at Visualiseringscenter C as a Bachelor's project in Media Technology at Linköping University during the spring of 2020. The code stub given in [SGCT-Networked-Application](https://github.com/alexanderbock/SGCT-Networked-Application) was used as the foundation for the project.
 
-To clone this repository, don't forget to recurse submodules: `git clone --recurse-submodules https://github.com/Lrssn/DomeDagen.git` or the dependent libraries will not work correctly.
+To clone this repository, don't forget to recurse submodules: `git clone --recurse-submodules https://github.com/frans-johansson/DomeDagen.git` or the dependent libraries will not work correctly.
 
-# Getting started
+## Getting started
 1. Execute `npm install` in the `webserver` folder
 2. Compile the application
 3. Start the web server with `node server.js` in the `webserver` folder
@@ -13,7 +13,7 @@ To clone this repository, don't forget to recurse submodules: `git clone --recur
 
 In the current version, it is necessary to start the server *before* starting the application, as the application will only try to connect once at startup.
 
-# Configurations
+## Configurations
 Currently, the server and application addresses are encoded in several places that all have to be changed:
 1. Create `config.json` in `/webserver` without comments
 
